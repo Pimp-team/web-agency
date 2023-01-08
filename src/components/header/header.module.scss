@@ -1,0 +1,49 @@
+.header {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 55px 35px 0 50px;
+}
+
+.navigation {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    padding-left: 10px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: lowercase;
+    font-size: 24px;
+    transition: 1s;
+  }
+  p {
+    cursor: pointer;
+  };
+}
+
+.icon_wrap {
+  position: fixed;
+  right: 2.1%;
+  top: 5%;
+  padding: 25px 20px;
+  border-radius: 50%;
+  transition: .2s ease-in;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.btn_menu {
+  position: absolute;
+  right: 120px;
+  top:7.3%
+}
+
+.icon_wrap:hover {
+  background-color: #000000;
+
+  span {
+    background: white;
+  }
+}

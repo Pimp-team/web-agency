@@ -5,13 +5,16 @@
     margin: 0 auto;
     padding: 200px 40px;
     column-gap: 60px;
+    @media (max-width:650px) {
+        padding: 10px 20px;
+    }
 }
 
 .promo_content {
     max-width: 700px;
     h1 {
         font-size: 78px;
-        font-weight: 500;
+        font-weight: 300;
         line-height: 1;
         margin-top: 20px;
         margin-left: -5px;
@@ -31,4 +34,24 @@
 
 .promo_hero {
 
+}
+
+@media (max-width:1450px) {
+    .promo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 100px;
+    }
+}
+
+@media (max-width:880px) {
+    .promo_content {
+        h1 {
+            font-size: 58px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
 }

@@ -8,7 +8,7 @@ const Promo = () => {
             <div className={styles.promo_content}>
                 <span>A TRUSTED DIGITAL AGENCY</span>
                 <h1>Building Digital <br />
-                    Products & Brands.</h1>
+                    Products & Brands</h1>
                 <p>Welcome to our web development agency! We create top-quality websites for small businesses and help them grow and succeed online. Our team specializes in web development, design, and branding. We'll work with you to achieve your online goals and make the technical stuff easy.</p>
             </div>
             <div className={styles.promo_hero}>

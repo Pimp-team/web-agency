@@ -12,7 +12,7 @@ const ContactUs = () => {
             </div>
             <div className={styles.contact_us_content}>
                 <h2>
-                    contact us now
+                    contact us today!
                 </h2>
                 <p>
                     Our simple process makes it easy to get the website you need without the headache of technical jargon!

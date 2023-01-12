@@ -2,6 +2,9 @@
   max-width: 1900px;
   margin: 0 auto;
   padding: 55px 35px 0 50px;
+  @media (max-width:650px) {
+    padding: 55px 10px;
+  }
 }
 
 .navigation {
@@ -17,9 +20,13 @@
     text-transform: lowercase;
     font-size: 24px;
     transition: 1s;
+  
   }
   p {
     cursor: pointer;
+    @media (max-width: 650px) {
+      display: none;
+    }
   };
 }
 
@@ -42,8 +49,14 @@
 
 .icon_wrap:hover {
   background-color: #000000;
+@media (max-width:850px) {
+  background-color: transparent;
 
+}
   span {
     background: white;
+    @media (max-width:850px) {
+      background: #000000;
+    }
   }
 }

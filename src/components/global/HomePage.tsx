@@ -4,6 +4,8 @@ import Promo from '../promo/Promo';
 import Services from '../services/Services';
 import ContactUs from '../contactus/ContactUs';
 import Prices from '../prices/Prices';
+import Footer from '../footer/Footer';
+import CaseStudies from '../case_studies/CaseStudies';
 
 const HomePage =() => {
   return (
@@ -11,8 +13,10 @@ const HomePage =() => {
     <Header />
     <Promo />
     <Services />
+    <CaseStudies />
     <ContactUs />
     <Prices />
+    {/* <Footer /> */}
     </>
   );
 }

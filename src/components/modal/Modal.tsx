@@ -11,6 +11,7 @@ const Modal:React.FC<TToggle> = ({thumb, change}) => {
                     <li>menu</li>
                     <li><Link to='/home'>Home</Link></li>
                     <li><Link to='/services'>Services</Link></li>
+                    <li><Link to='/case_syudies'>Case Studies</Link></li>
                     <li><Link to='/contuct_us'>Contact us</Link></li>
                 </ul>
             </div>

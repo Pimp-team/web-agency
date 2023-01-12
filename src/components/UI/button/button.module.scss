@@ -4,12 +4,12 @@
     border-radius: 25px;
     color: white;
     font-weight: 300;
-    transition: 0.3s ease-in-out;
+    transition: 0.1s ease-in-out;
     &:hover {
         background-color: rgb(250, 72, 101); 
     }
     &:active {
-        transform: translateY(-2px);
+        transform: scale(95%);
     }
 }
 

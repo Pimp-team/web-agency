@@ -1,4 +1,13 @@
 //Form style
+form {
+  border: 3px solid rgb(250, 72, 101);;
+  padding: 60px 40px ;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  @media (max-width:850px) {
+    padding: 60px 20px;
+  }
+}
 
 .group 			  { 
     position:relative; 
@@ -46,12 +55,12 @@ input::-webkit-inner-spin-button {
   input:focus ~ label, input:valid ~ label 		{
     top:-20px;
     font-size:14px;
-    color:#5264AE;
+    color:rgb(250, 72, 101);
   }
   textarea:focus ~ label, input:valid ~ label 		{
     top:-20px;
-    font-size:14px;
-    color:#5264AE;
+    font-size:10px;
+    color:rgb(250, 72, 101);
   }
 
   
@@ -63,7 +72,7 @@ input::-webkit-inner-spin-button {
     width:0;
     bottom:1px; 
     position:absolute;
-    background:#5264AE; 
+    background:rgb(250, 72, 101);  
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;

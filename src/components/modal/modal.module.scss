@@ -69,9 +69,10 @@
     background-color: rgba($color: #000000, $alpha: 0.3);  
     animation: 0.3s back_show alternate-reverse;
     a {
+        transition: opacity 1s ease-in-out;
         display: block;
-        padding: 55px 0 0 60px;
-        top:10%;
+        padding-top: 55px;
+        margin-left: 50px;
         font-weight: 700;
         color: #000000;
         text-transform: lowercase;
